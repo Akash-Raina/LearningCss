@@ -1,0 +1,65 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header-section{
+    padding: 20px 0 10px 40px;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    border-bottom: 2px solid rgb(167, 143, 113);
+    background-color: #2c2d35;
+}
+
+.logo-section img{
+    height: 3rem;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+
+}
+.logo-section img:hover{
+    transform: scale(1.1);
+}
+
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Montserrat" , sans-serif;
+}
+
+.nav-section a{
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+.nav-section a:hover{
+    color: rgb(167, 143, 113);
+}
+
+.nav-section button{
+
+    
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2rem;
+    /* border: 2px solid white; */
+
+    background-color: rgb(12, 89, 161);
+    transition: all 0.3s ease 0s;
+}
+
+.nav-section button:hover{
+    transform: scale(1.1);
+    background-color: rgb(106, 176, 233);
+}
